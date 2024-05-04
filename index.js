@@ -4,10 +4,10 @@ const hostname = '127.0.0.1';
 const port = 3000;
 const app = express();
 const connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'your_username',
-  password: 'your_password',
-  database: 'your_database_name'
+  host: '127.0.0.1',
+  user: 'root',
+  password: '',
+  database: 'unicraft'
 });
 // Connect to the database
 connection.connect((err) => {
